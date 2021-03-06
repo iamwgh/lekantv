@@ -20,3 +20,8 @@ app/src/main/java/com/pxf/fftv/plus/contract/live/IjkTVLiveActivity.java 120行
 
 # 线路及播放器名称
 app/src/main/res/layout/activity_setting.xml
+
+# exoplayer预加载设置
+app/src/main/java/com/pxf/fftv/plus/player/LdDefaultLoadControl.java
+
+# 用github action 即可编译
