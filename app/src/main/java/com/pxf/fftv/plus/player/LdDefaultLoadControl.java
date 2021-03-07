@@ -13,14 +13,14 @@ import com.google.android.exoplayer2.util.Util;
 
 
 public class LdDefaultLoadControl implements LoadControl {
-    public static final int DEFAULT_MIN_BUFFER_MS = 80000;
+    public static final int DEFAULT_MIN_BUFFER_MS = 120000;
 
     /**
      * The default maximum duration of media that the player will attempt to buffer, in milliseconds.
      * For playbacks with video, this is also the default minimum duration of media that the player
      * will attempt to ensure is buffered.
      */
-    public static final int DEFAULT_MAX_BUFFER_MS = 120000;
+    public static final int DEFAULT_MAX_BUFFER_MS = 130000;
 
     /**
      * The default duration of media that must be buffered for playback to start or resume following a
