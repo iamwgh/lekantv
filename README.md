@@ -24,4 +24,6 @@ app/src/main/res/layout/activity_setting.xml
 # exoplayer预加载设置
 app/src/main/java/com/pxf/fftv/plus/player/LdDefaultLoadControl.java
 
-# 用github action 即可编译
+# 搜索
+app/src/main/java/com/pxf/fftv/plus/model/video/cms/CMSSearchEngine.java
+
