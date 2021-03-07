@@ -36,7 +36,7 @@ public class CMSSearchEngine implements ISearchEngine {
         ArrayList<Video> videos = new ArrayList<>();
 
         Request request = new Request.Builder()
-                .url("https://m3u8.tiankongapi.com/api.php/provide/vod/?ac=detail&wd=" + words)
+                .url("http://ok.888hyk.com/api.php/provide/vod?ac=detail&wd=" + words)
                 .build();
 
         try {
