@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public class VideoConfig {
 
-    private static final String BASE_CMS_URL = "https://m3u8.apibdzy.com/api.php/provide/vod/?ac=videolist";
+    private static final String BASE_CMS_URL = "http://c.bukai.men/api.php/provide/vod/?ac=videolist";
     private static final String BASE_OK_URL = "http://www.apiokzy.com/inc/feifei3";
     private static final String BASE_ZD_URL = "http://www.zdziyuan.com/inc/feifei3.4";
 
@@ -327,36 +327,13 @@ public class VideoConfig {
 
     public static final Video1[] VIDEO_CONFIG_CMS = new Video1[]{
             new Video1("电视剧", false, false, new Video2[]{
-                    new Video2("新剧上新", "最新剧集", BASE_CMS_URL + "&t=32"),
-                    new Video2("国产剧集", "国产剧集", BASE_CMS_URL + "&t=32"),
-                    new Video2("香港剧集", "香港剧集", BASE_CMS_URL + "&t=33"),
-                    new Video2("日本剧集", "日本剧集", BASE_CMS_URL + "&t=34"),
-                    new Video2("欧美剧集", "欧美剧集", BASE_CMS_URL + "&t=35")
+                    new Video2("新剧上新", "最新剧集", BASE_CMS_URL + "&t=20")
             }),
             new Video1("综艺", false, false, new Video2[]{
-                    new Video2("最新综艺", "最新综艺", BASE_CMS_URL + "&t=37"),
-                    new Video2("大陆综艺", "大陆综艺", BASE_CMS_URL + "&t=37"),
-                    new Video2("日韩综艺", "日韩综艺", BASE_CMS_URL + "&t=38"),
-                    new Video2("港台综艺", "港台综艺", BASE_CMS_URL + "&t=39"),
-                    new Video2("欧美综艺", "欧美综艺", BASE_CMS_URL + "&t=40")
+                    new Video2("最新综艺", "最新综艺", BASE_CMS_URL + "&t=22")
             }),
             new Video1("电影", false, false, new Video2[]{
-                    new Video2("新片上架", "最新电影", BASE_CMS_URL + "&t=21"),
-                    new Video2("动作", "动作电影", BASE_CMS_URL + "&t=21"),
-                    new Video2("喜剧", "喜剧电影", BASE_CMS_URL + "&t=22"),
-                    new Video2("爱情", "爱情电影", BASE_CMS_URL + "&t=23"),
-                    new Video2("科幻", "科幻电影", BASE_CMS_URL + "&t=24"),
-                    new Video2("犯罪", "犯罪电影", BASE_CMS_URL + "&t=26"),
-                    new Video2("战争", "战争电影", BASE_CMS_URL + "&t=27"),
-                    new Video2("动画", "动画电影", BASE_CMS_URL + "&t=28"),
-                    new Video2("剧情", "剧情电影", BASE_CMS_URL + "&t=29")
-            }),
-            new Video1("动漫", false, false, new Video2[]{
-                    new Video2("最新动漫", "最新动漫", BASE_CMS_URL + "&t=42"),
-                    new Video2("大陆动漫", "国产动漫", BASE_CMS_URL + "&t=42"),
-                    new Video2("日韩动漫", "日本动漫", BASE_CMS_URL + "&t=43"),
-                    new Video2("港台动漫", "欧美动漫", BASE_CMS_URL + "&t=44"),
-                    new Video2("欧美动漫", "海外动漫", BASE_CMS_URL + "&t=45")
+                    new Video2("新片上架", "最新电影", BASE_CMS_URL + "&t=21")
             })
     };
 
