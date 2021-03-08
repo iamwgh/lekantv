@@ -159,9 +159,9 @@ public class EXOPlayerActivity extends AppCompatActivity {
                             }
                             // 快退
                             if (targetPosition == -1) {
-                                targetPosition = (int) (mPlayer.getCurrentPosition()) / 1000 - videoDuration / 100;
+                                targetPosition = (int) (mPlayer.getCurrentPosition()) / 1000 - 60;
                             } else {
-                                targetPosition = targetPosition - videoDuration / 100;
+                                targetPosition = targetPosition - 60;
                             }
                             // 最小不小于0
                             if (targetPosition < 0) {
@@ -183,9 +183,9 @@ public class EXOPlayerActivity extends AppCompatActivity {
                             }
                             // 快进
                             if (targetPosition == -1) {
-                                targetPosition = (int) (mPlayer.getCurrentPosition()) / 1000 + videoDuration / 100;
+                                targetPosition = (int) (mPlayer.getCurrentPosition()) / 1000 + 60;
                             } else {
-                                targetPosition = targetPosition + videoDuration / 100;
+                                targetPosition = targetPosition + 60;
                             }
                             // 最大不超过最终时间-3秒
                             if (targetPosition >= videoDuration - 3) {
