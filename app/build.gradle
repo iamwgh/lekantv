@@ -99,10 +99,10 @@ dependencies {
     // 加载动画
     implementation 'com.github.zzz40500:android-shapeLoadingView:1.0.3.2'
     // EXO
-    implementation 'com.google.android.exoplayer:exoplayer-core:2.13.1'
-    implementation 'com.google.android.exoplayer:exoplayer-dash:2.13.1'
-    implementation 'com.google.android.exoplayer:exoplayer-ui:2.13.1'
-    implementation 'com.google.android.exoplayer:exoplayer-hls:2.13.1'
+    implementation 'com.google.android.exoplayer:exoplayer-core:2.13.2'
+    implementation 'com.google.android.exoplayer:exoplayer-dash:2.13.2'
+    implementation 'com.google.android.exoplayer:exoplayer-ui:2.13.2'
+    implementation 'com.google.android.exoplayer:exoplayer-hls:2.13.2'
     // 友盟
     implementation "com.umeng.umsdk:common:2.0.0"
     implementation "com.umeng.umsdk:analytics:8.0.0"
